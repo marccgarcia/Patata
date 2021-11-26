@@ -1,8 +1,71 @@
-body {
-  background-color: #618196;
-}
-
-.robot {
+body{
+background-color: #82dbff;
 position: absolute;
-
+margin-left: 0px;
+margin-right: 0px;
 }
+
+.suelo {
+background-color: #3eb700;
+width: 1949px;
+height: 300px;
+margin-top: 100px;
+position: relative;
+}
+
+
+.cuerpo {
+position: relative;
+width: 30em;
+height: 30em;
+background-color: #b06528;
+border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+text-align: center;
+transform-origin: center bottom;
+margin: 0 auto;
+margin-top: 150px;
+}
+
+.ojos {
+  position: absolute;
+  height: 150px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.ojo {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border: thin solid black;
+  border-radius: 50%;
+  margin-top: 3em;
+}
+
+.ojo-izq {
+  position: absolute;
+  left: 7.3em;
+  border-radius: 55% 55% 55% 55% / 65% 65% 70% 70%;
+}
+
+.ojo-der {
+  position: absolute;
+  right: 7.3em;
+  border-radius: 55% 55% 55% 55% / 65% 65% 70% 70%;
+}
+
+.pupila {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: black;
+  border: thin solid black;
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
