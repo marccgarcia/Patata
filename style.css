@@ -1,16 +1,13 @@
 body{
 background-color: #82dbff;
-position: absolute;
-margin-left: 0px;
-margin-right: 0px;
+
 }
 
 .suelo {
 background-color: #3eb700;
-width: 1949px;
-height: 300px;
+height: auto;
 margin-top: 100px;
-position: relative;
+bottom: -22em;
 }
 
 
@@ -20,10 +17,8 @@ width: 30em;
 height: 30em;
 background-color: #b06528;
 border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-text-align: center;
-transform-origin: center bottom;
 margin: 0 auto;
-margin-top: 150px;
+top: 10em;
 }
 
 .ojos {
@@ -42,7 +37,7 @@ margin-top: 150px;
   background-color: white;
   border: thin solid black;
   border-radius: 50%;
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
 .ojo-izq {
@@ -69,3 +64,36 @@ margin-top: 150px;
   border-radius: 50%;
   width: 33px;
   height: 33px;
+}
+
+.boca-pou {
+  position: absolute;
+    top: -2em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin: auto;
+    height: 100px;
+    width: 110px;
+    background-color: #932e10;
+}
+
+
+.cuerpo2 {
+  position: absolute;
+width: 30em;
+  height: 10em;
+  background-color: black;
+  border-radius: 10% 10% 40% 40% / 50% 50% 40% 50%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 1em solid white;
+}
+
+.sombrero {
+
+}
